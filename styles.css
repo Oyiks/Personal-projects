@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #D4D4D4;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+
+/* header */
+header {
+    /* padding-left: 130px; */
+    padding-bottom: 100px;
+}
+
+nav {
+    height: auto;
+    padding: 1em;
+    text-decoration: none;
+    top: 20px;
+    width: 100%;
+}
+
+#nav1 {
+    background: #868686;
+    color: white;
+}
+
+#nav2 {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.main-nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    padding: 12px 33px;
+    border-radius: 10px;
+    background-color: #4E4B4B;
+    border: none;
+}
+
+.heading {
+    display: flex;
+    /* margin-left: 130px; */
+    justify-content: space-evenly;
+}
+
+.shop_now {
+    padding: 10px 25px;
+    background-color: #868686;
+    color: white;
+    border: none;
+}
+
+.spare_parts {
+    margin-top: 120px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.black {
+    color: black;
+}
+
+.first-word {
+    color: white;
+}
+
+a:link {
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* .links1 {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-content: center;
+}
+
+.links2 {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-content: center;
+} */
+
+/* section 1 */
+.lubricants_spareparts {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lubricants, .spareparts {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+/* section 2 */
+.top_picks {
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    background-color: #FFF;
+    align-items: center;
+}
+
+.select_products {
+    text-align: center;
+}
+
+.picks {
+    background-color: #FFF;
+    padding-top: 30px;
+}
+
+/* .display {
+    display: flex;
+    align-items: center;
+} */
+
+/* section 3 */
+.engine_oil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arrivals {
+    padding-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.shell {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 26px;
+}
+
+.shopnow {
+    padding: 10px 25px;
+    background-color: white; 
+    color: black;
+    border: none;
+}
+
+.new_arrivals {
+    margin-bottom: 15px;
+}
+
+/* section 4 */
+
+.blog {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left: 170px;
+    padding-right: 170px; */
+}
+
+.blog_section_text {
+    text-align: center;
+}
+
+.blog_section {
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.more {
+    text-align: center;
+}
+
+.read_more {
+    text-align: center;
+}
+
+/* section 5 */
+
+.image {
+    background: url("img/Group 43.png");
+    background-color: lightgray;
+    background-position: 50%;
+    background: cover; 
+    /* background-repeat: no-repeat; 
+    background-color: rgba(250, 244, 244, 0.50); */
+    /* background-color: #FFF; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 0.9;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mybutton {
+    padding: 17px 82px;
+    background-color: #FAF4F4; 
+    color: black;
+    border: none;
+    position: relative;
+    top: 40%;
+    left: 43%;
+    border-radius: 10px;
+}
+
+/* .heading_writing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* footer */
+
+footer {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.footer_text {
+    color: black;
+    
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 3.5;
+}
+
+.newsletter {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first_letter {
+    color: black;
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
